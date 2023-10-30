@@ -1,0 +1,123 @@
+/*.nav1 {
+    background-color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: flex-end;
+}*/
+.logoinicio1 {
+    padding: 1.5% 0.5%;
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    top: auto;
+}
+
+.logoinicio2 {
+    padding: 1% 0.5%;
+    display: flex;
+    justify-content: end;
+}
+
+.t10 {
+    display: flex;
+    justify-content: center;
+}
+
+.b1 {
+    color: #000;
+    justify-content: end;
+    padding: 1%;
+}
+
+.final1 {
+    background-color: white;
+}
+
+.copy1 {
+    color: black;
+    padding: 2% 1% 0% 1%;
+}
+
+.siguenos1 {
+    color: black;
+    padding: 1%;
+}
+
+.you1 {
+    padding: 1%;
+}
+
+.a1 {
+    color: beige;
+}
+
+.logo2 {
+    height: auto;
+    width: 100%;
+}
+
+body {
+    padding: 0 70px;
+}
+
+
+
+
+
+
+/*slider de imagenes automatico*/
+
+
+.slider-box {
+    width: 100%;
+    height: 50%;
+    margin: 0% 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.texto {
+    position: absolute;
+    text-align: center;
+    padding: 0 7%;
+    top: 25%;
+    color: #ffffff;
+}
+
+.texto h2 {
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+.slider-box img, iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes slide {
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
